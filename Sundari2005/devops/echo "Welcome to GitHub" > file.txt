@@ -1,0 +1,7 @@
+git init
+echo "Welcome to GitHub" > file.txt
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/Sundari2005/devops/.git
+git push -u origin main
